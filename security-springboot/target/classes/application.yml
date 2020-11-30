@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /securityboot
+spring:
+  application:
+    name: security-boot
+  mvc:
+    view:
+      prefix: /WEB_INF/views
+      suffix: .jsp
